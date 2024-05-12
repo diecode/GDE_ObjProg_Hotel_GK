@@ -7,7 +7,7 @@ from classes.egyagyas_szoba import EgyagyasSzoba
 
 # Fő program
 # Hotel objektum létrehozása
-hotel = Szalloda("HOTEL Krisztián", 1036, "Budapest", "Teszt Elek utca 6-8")
+hotel = Szalloda("HOTEL Krisztian", 1036, "Budapest", "Teszt Elek utca 6-8")
 
 # Hotel szobákkal való feltöltése
 room100 = EgyagyasSzoba(100, 15000)

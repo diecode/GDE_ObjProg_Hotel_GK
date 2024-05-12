@@ -9,9 +9,9 @@ class Szalloda():
             self.zipcode = int(zipcode)
 
             if (len(str(self.zipcode))) != 4:
-                raise "The postal code must be only 4 digits."
+                raise "Az irányítószámnak 4 számjegyűnek kell lennie."
         except ValueError:
-            raise "The postal code must be numeric only."
+            raise "Az irányítószám csak számokból állhat."
 
         self.city = city
         self.address = address

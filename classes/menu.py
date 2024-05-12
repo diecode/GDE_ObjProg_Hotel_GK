@@ -14,7 +14,7 @@ class Menu(cmd.Cmd):
         self.hotel = hotel
 
     def do_hotel_info(self, arg):
-        """ Információkat jelenít meg a Hotel Krisztiánról """
+        """ Információkat jelenít meg a Hotel Krisztianról """
         print(f"\t{self.hotel.name}'s address is {self.hotel.zipcode} {self.hotel.city}, {self.hotel.address}")
 
     def do_szoba_lista(self, arg):
